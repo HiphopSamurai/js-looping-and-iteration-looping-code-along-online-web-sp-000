@@ -3,9 +3,7 @@
 function writeCards(arrayOfnames, event) {
   var newArray = []
   for (let i = 0; i < arrayOfnames.length; i++) {
-    //console.log('Thank you, ' + arrayOfnames[i] + ", for the wonderful " + event + " gift!");
-    //push.newArray = console.log('Thank you, ' + arrayOfnames[i] + ", for the wonderful " + event + " gift!");
-    push.newArray('Thank you, ' + arrayOfnames[i] + ", for the wonderful " + event + " gift!");
+    newArray.push('Thank you, ' + arrayOfnames[i] + ", for the wonderful " + event + " gift!");
   }
 
   return newArray;
