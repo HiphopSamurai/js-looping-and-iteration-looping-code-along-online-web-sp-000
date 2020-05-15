@@ -10,5 +10,5 @@ function writeCards(arrayOfnames, event) {
 }
 
 function countDown() {
-  
+
 }
