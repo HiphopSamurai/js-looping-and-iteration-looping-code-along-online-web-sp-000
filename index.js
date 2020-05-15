@@ -11,6 +11,6 @@ function writeCards(arrayOfnames, event) {
 
 function countDown(num) {
   while (num =< 0)
-  console.log(num)
-  num = num - 1
+  console.log(num);
+  num = num - 1;
 }
