@@ -6,4 +6,6 @@ function writeCards(arrayOfnames, event) {
     //console.log('Thank you, ' + arrayOfnames[i] + ", for the wonderful " + event + " gift!");
     push.newArray = console.log('Thank you, ' + arrayOfnames[i] + ", for the wonderful " + event + " gift!");
   }
+
+  return newArray;
 }
